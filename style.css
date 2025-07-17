@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9f6;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2f855a;
+}
+
+#curriculum-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.curriculum-item {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.curriculum-item label {
+  flex: 1;
+}
+
+.curriculum-item a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+input[type="checkbox"] {
+  margin-left: 15px;
+  transform: scale(1.4);
+}
